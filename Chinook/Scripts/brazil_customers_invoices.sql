@@ -5,4 +5,11 @@ SELECT c.FirstName + ' ' + c.LastName AS FullName,
 	   i.BillingCountry
 FROM Customer c
 INNER JOIN Invoice i ON c.CustomerId = i.CustomerId
+WHERE c.Country = 'Brazil';
+
+
+SELECT c.FirstName + ' ' + c.LastName AS CustomerName, 
+	i.InvoiceDate, i.BillingCountry
+FROM Customer c
+JOIN Invoice i ON c.CustomerId = i.CustomerId
 WHERE c.Country = 'Brazil'

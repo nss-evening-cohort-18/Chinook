@@ -3,4 +3,9 @@ SELECT FirstName + ' ' + LastName AS FullName,
 	   CustomerId,
 	   Country
 FROM Customer
-WHERE Country <> 'USA'
+WHERE NOT Country = 'USA';
+
+
+SELECT CustomerId, FirstName, LastName, Country 
+FROM Customer
+WHERE Country <> 'USA';
