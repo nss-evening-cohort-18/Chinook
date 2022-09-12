@@ -1,0 +1,1 @@
+﻿SELECT COUNT(*) AS NumOfInvoices, 	   BillingCountryFROM InvoiceGROUP BY BillingCountry;

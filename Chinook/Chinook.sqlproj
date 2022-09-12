@@ -71,5 +71,8 @@
     <None Include="Scripts\invoice_37_line_item_count.sql" />
     <None Include="Scripts\line_items_per_invoice.sql" />
     <None Include="Scripts\line_item_track.sql" />
+    <None Include="Scripts\line_item_track_artist.sql" />
+    <None Include="Scripts\country_invoices.sql" />
+    <None Include="Scripts\all_others.sql" />
   </ItemGroup>
 </Project>
